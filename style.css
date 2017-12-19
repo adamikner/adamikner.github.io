@@ -291,8 +291,15 @@ h1 {
     box-shadow: 10px 10px 5px #888888;
 }
 
+/*
 #pub-text {
-    /*    padding: 30px;*/
+        padding: 0 20px 20px 20px;
+}
+*/
+
+#pub-text p {
+        padding: 0 20px 20px 20px;
+    margin-top: 0px;
 }
 
 #resume-plug {
