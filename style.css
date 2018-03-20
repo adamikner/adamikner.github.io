@@ -215,24 +215,33 @@ h1 {
     width: 175px;
 }
 
-#piano {
+#web {
     grid-area: piano;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
     background-image: url(pink_rice.png);
-    padding: 50px;
+    padding: 15px;
     margin: 25px;
     border-color: black;
     border-style: groove;
     box-shadow: 10px 10px 5px #888888;
+
 }
 
-#piano-description {
-    margin-right: 20px;
-    margin-left: -10px;
+#web img {
+    height: 220px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#webpics {
+    text-align: center;
+}
+
+#web h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: -10px;
 }
 
 
@@ -373,15 +382,16 @@ h1 {
     margin: 25px;
 }
 
-#socials {
-    margin: 0 auto;
+#socials ul {
+  list-style: none;
+  font-size: 25px;
+padding: 0;
+    text-align: center;
+    
+   
 }
 
-#socials a {
-    display: inline-block;
-    margin-right: 20px;
+#socials li {
+    margin: 20px
 }
-
-#socials a:nth-child(3n) {
-    margin-right: 0;
-}
+   
